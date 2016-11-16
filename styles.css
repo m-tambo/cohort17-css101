@@ -5,7 +5,7 @@ p {
 }
 
 .kermit {
-  border: 3px dashed green;
+  border: 1px solid darkgreen;
   border-radius: 20%;
 }
 
@@ -22,4 +22,46 @@ p {
 
 #main-div-2 p {
 	background-color: pink;
+}
+
+
+/***** Step 3 *****/
+
+#li-1 {
+	font-size: 30px;
+}
+
+#li-2 {
+	font-weight: 900;
+}
+
+#li-3 {
+	text-transform: uppercase;
+}
+
+#mystery-ul li:nth-child(2n + 1) {
+	font-family: "Mystery Quest", cursive;
+}
+
+img {
+	width: 200px;
+}
+
+
+/***** Step 4 *****/
+
+#flex-kermit {
+  display: flex;
+}
+
+#flex-kermit > img {
+  width: 25%;
+}
+
+input:valid {
+	background-color: yellow;
+}
+
+input:invalid {
+	background-color: red;
 }
