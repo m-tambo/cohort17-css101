@@ -1,0 +1,25 @@
+/***** Step 1 *****/
+
+p {
+	border-bottom: 2px solid orange;
+}
+
+.kermit {
+  border: 3px dashed green;
+  border-radius: 20%;
+}
+
+#main-div-1 {
+	padding: 5%;
+}
+
+
+/***** Step 2 *****/
+
+#main-div-2 .kermit {
+	border: 3px dotted purple;
+}
+
+#main-div-2 p {
+	background-color: pink;
+}
